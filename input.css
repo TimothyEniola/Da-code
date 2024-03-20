@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width:195.17px ;
+    height:22.3px ;
+    margin-left:90px ;
+    margin-top: 43.36px;
+    margin-bottom:100px ;
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    width: 500px;
+    height:22px ;
+    justify-content: right;
+    justify-content: space-between;
+    margin-left: 890px;
+    list-style: none;
+}
+.create{
+    margin-left: 251px;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.logo3 img{
+    width:1203.01px ;
+}
+.logo button{
+    background-color: blue;
+    width: 133.05px;
+    font-weight: 500px;
+    font-size: 15px;
+    color: white;
+    padding: 11px;
+    border: none;
+    border-radius: 1000px;
+}
+a{
+    text-decoration: none;
+}
