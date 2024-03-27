@@ -1,7 +1,16 @@
+@font-face{
+    font-family: 'circular std';
+    src: url(circular-std-medium-500.ttf);
+}
+@font-face{
+    font-family:'dm sans';
+    src: url(dm-sans-font-family-1711077387-0.zip);
+}
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: white;
 }
@@ -21,6 +30,7 @@ ul{
     align-items: center;
     width: 500px;
     height:22px ;
+    font-family: circular std;
     justify-content: right;
     justify-content: space-between;
     margin-left: 890px;
@@ -49,3 +59,284 @@ ul{
 a{
     text-decoration: none;
 }
+
+
+section{
+    background-color: #60e1cb;
+}
+
+.first{
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    }
+    .first h2{
+     font-family:circular std; 
+     font-size: 48px;
+     font-weight:700px;
+    }
+    .first p{
+      font-family:dm sans; 
+      font-size: 20px; 
+      font-weight: 400px;
+     margin-top:22px;
+    }
+    .sectiona{
+        display: flex;
+       justify-content: space-evenly;
+       margin-top: 50px;
+    }
+    .sectionb{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+    .second{
+     background-color: white; 
+     width: 351px;  
+     height: 381px;
+     border: none;
+     border-radius: 6px;
+     border-style: solid;
+     border-top-color: aqua;
+     border-style:solid ;
+     border-left-color: white;
+     border-style:solid ;
+     border-right: white;
+     border-style:solid ;
+     border-bottom: white;
+    }
+    .second img{
+     margin-top: 70px;   
+     margin-left: 30px;
+    }
+    .second h4{
+     font-family:circular std ;   
+     font-size: 20px;
+     font-weight: 700px;
+     margin-top:30px ;
+     margin-left: 30px;
+    }
+    .second p{
+     font-family:dm sans ;  
+     font-size:16px ; 
+     font-weight: 500px;
+     margin-top: 20px;
+     margin-left:30px ;
+    }
+    .second h6{
+     font-family:dm sans ;
+     font-size: 14px;
+     font-weight: 700px;
+     margin-top:50px ;
+     margin-left:30px ;
+     color: aqua;
+    }
+    
+    .third{
+        
+     background-color: white; 
+     width: 351px;  
+     height: 381px;
+     border: none;
+     border-radius: 6px;
+     border-style: solid;
+     border-top-color: aqua;
+     border-style:solid ;
+     border-left-color: white;
+     border-style:solid ;
+     border-right: white;
+     border-style:solid ;
+     border-bottom: white;
+    }
+    .third img{
+        margin-top: 70px;   
+        margin-left: 30px;
+    }
+    .third h4{
+      
+     font-family:circular std;   
+     font-size: 20px;
+     font-weight: 700px;
+     margin-top:30px ;
+     margin-left: 30px;  
+    }
+    .third p{
+        
+     font-family:dm sans;  
+     font-size:16px ; 
+     font-weight: 500px;
+     margin-top: 20px;
+     margin-left:30px ;
+    }
+    .third h6{
+        
+     font-family:dm sans ;
+     font-size: 14px;
+     font-weight: 700px;
+     margin-top:50px ;
+     margin-left:30px ;
+     color: aqua;
+    }
+    
+    .eight{
+      width: 400px;  
+      height: 800px;
+      margin-left: 1100px;
+    } 
+     
+
+    .tabi{
+        display: flex;
+        justify-content: center;
+        font-family: circular std;
+        font-weight: 700px;
+        font-size: 24px;
+        margin-top: 50px;
+        color: aqua;
+    }
+    
+    .tah{
+        
+        display: flex;
+        justify-content: center;
+        font-family: circular std;
+        font-weight: 700px;
+        font-size: 48px;
+        margin-top: 30px;
+        color: black;
+    }
+    h5{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height:22px ;
+        font-family: circlar std;
+        justify-content: space-between;
+        margin-left: 600px;
+        margin-top:50px ;
+        list-style: none;
+        
+    }
+    h5 a{
+        text-decoration: none;
+        color:aqua;
+    }
+    
+    h5 button{
+        background-color: white;
+        width: 200px;
+        height: 60px;
+        border-style: solid;
+        border-color: aqua;
+        border-radius: 30px;
+        color: aqua;
+    } 
+    
+    .photo1{
+        width: 400px;
+        height: 400px;
+        border: 4px;
+    }
+    .photo2{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        z-index: auto;
+    }  
+    
+    .france{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .swift{
+        background: linear-gradient(white 0%, white 70%, #60e1cb 70%, #60e1cb 100%);
+     }   
+     
+.idea{
+    margin-left: 1000px; 
+  }
+  .idea2{
+      margin-left: 50px;
+  }
+  .idea2 h2{
+      font-family: circular std;
+      font-size: 48px;
+      font-weight: 700px;
+      margin-bottom: 30px;
+  }
+  .exco{
+      color: aqua;
+  }
+  .idea2 p{
+      font-family: dm sans;
+      font-size: 24px;
+      font-weight: 400px;
+  }
+  
+  .idea3{
+    margin-left: 30px; 
+  }
+  .idea3 h4{
+    font-family: circular std; 
+    font-size: 24px; 
+    font-weight: 700px;
+    color: aqua;
+    margin-top: 50px;
+  }
+  .idea3 p{
+      font-family: dm sans;
+      font-size:16px ;
+      font-weight: 500px;
+      margin-top: 30px;
+  }
+  .slay{
+      display: flex;
+  }
+  .jet{
+      display: flex;
+  }
+  .hulk h2{ 
+      display: flex;
+      justify-content: center;
+      font-family: circular std;
+      font-weight: 700px;
+      font-size: 48px;
+      margin-bottom: 30px;
+  }
+  .hulk p{
+      
+      display: flex;
+      justify-content: center;
+      font-family: dm sans;
+      font-weight: 400px;
+      font-size: 24px;
+      margin-top: 20px;
+  }
+  .hulk button{
+      
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-weight: 700px;
+      background-color: black;
+      color: white;
+      border-radius: 1000px;
+      width: 300px;
+      height: 50px;
+      margin-left: 750px;
+      margin-top: 30px;
+      padding-top: 15px;
+      font-size: 15px;
+
+  }
+  .hulk img{
+      width: 50%;
+      height: 70%;
+  margin-left: 00px;
+  }
+  .saviour{
+      background: linear-gradient(white 0%, white 70%, #60e1cb 70%, #60e1cb 100%);
+  }
